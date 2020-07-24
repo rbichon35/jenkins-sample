@@ -10,7 +10,7 @@
   <properties>
    <sonar.projectKey>rbichon35_jenkins-sample</sonar.projectKey>
    <sonar.organization>rbichon35</sonar.organization>
-  <properties>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
