@@ -22,6 +22,13 @@ node () {
 			bat 'mvn sonar:sonar'
 		}
 	}
+	stage ('App-IC - Deploy') {
+ 			if(isUnix()) {
+ 				sh "mvn clean deploy " 
+			} else { 
+ 				bat "mvn clean deploy " 
+			} 
+	}
 	stage ('App-IC - Post build actions') {
 /*
 Please note this is a direct conversion of post-build actions. 
