@@ -35,4 +35,9 @@
       <url>http://35.187.84.181:8081/repository/maven-releases/</url>
     </repository>
   </distributionManagement>
+  <scm>
+    <connection>scm:git:https://github.com/rbichon35/jenkins-sample</connection>
+    <url>https://github.com/rbichon35/jenkins-sample</url>
+    <developerConnection>scm:git:https://github.com/rbichon35/jenkins-sample</developerConnection>
+  </scm>
 </project>
